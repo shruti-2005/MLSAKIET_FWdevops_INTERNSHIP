@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 20px;
+  font-family:Arial, sans-serif;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  text-align: center;
+}
+
+
+#box img{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.social_media {
+  display: flex;                    
+  justify-content:space-around;
+padding: 10px;
+
+}
+.social_media a {
+  color: black; 
+  font-size: 40px;
+  margin: 0 10px; 
+  transition: color 0.3s; 
+}
+
+.social_media a:hover {
+  color: brown; 
+}
